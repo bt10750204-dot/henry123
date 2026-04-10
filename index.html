@@ -1,66 +1,103 @@
 <!DOCTYPE html>
 <html lang="zh-hant-tw">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="style.css" rel="stylesheet">
-
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Minecraft - 範例頁面</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
     <div id="wrap">
-    <ul>
-   
-</ul>
+      <header>
+        <h1>MINECRAFT</h1>
+        <nav>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">Draw</a></li>
+            <li><a href="#">Snake</a></li>
+            <li><a href="#">SNS</a></li>
+          </ul>
+        </nav>
+      </header>
 
-     <h1>MINECRAFT</h1>
-     <header>
-  <nav>
-    <ul>
-      <li><a href="#">HOME</a></li>
-      <li><a href="#">ABOUT</a></li>
-      <li><a href="#">Draw</a></li>
-      <li><a href="#">Snake</a></li>
-      <li><a href="#">SNS</a></li>
-    </ul>
-  </nav>
-</header>
+      <main class="content">
+        <section class="articles">
+          <article class="card">
+            <h2>廢棄礦坑</h2>
+            <img src="1.png" alt="廢棄礦坑示意圖" />
+            <p>
+              廢棄礦坑（Mineshaft）是一種生成於地下或水下的大型結構，有洞穴蜘蛛生怪磚與迷宮般的礦道。
+            </p>
+          </article>
 
-<div class="a">
-     <h2>廢棄礦坑</h2>
+          <article class="card">
+            <h2>要塞</h2>
+            <img src="2.png" alt="要塞示意圖" />
+            <p>
+              要塞（Stronghold）是一種可以用終界之眼定位的地下結構，其中一個房間含有終界傳送門。
+            </p>
+          </article>
+        </section>
 
-<img src="1.png "width=500>
-<P>
-    廢棄礦坑（Mineshaft）是一種生成於地下或水下的大型結構，有洞穴蜘蛛生怪磚與迷宮般的礦道。
-</P>
-</div>
-<div class="b">
-     <h2>要塞</h2>
+        <aside>
+          <nav class="my-favorites">
+            <h2>我的最愛清單 (Favorites)</h2>
+            <ul>
+              <li><a href="#">⭐ 療癒系：水豚 (Capybara)</a></li>
+              <li><a href="#">🎨 創作：插畫 (Illustration)</a></li>
+              <li><a href="#">🎮 遊戲：貪食蛇 (Snake Game)</a></li>
+              <li><a href="#">🍜 食物：拉麵 (Ramen)</a></li>
+            </ul>
+          </nav>
 
-<img src="2.png "width=500>
-<P>
-    要塞（Stronghold）是一種可以用終界之眼定位的地下結構，其中一個房間含有終界傳送門。
-</P>
-</div>
-</P>
-</div>
-</a>
-<a href="https://www.bdsh.ntpc.edu.tw/">123</a>
+          <nav class="status-box">
+            <h2>目前狀態 (Current Status)</h2>
+            <ul>
+              <li>正在努力學習：<strong>Flexbox 佈局</strong> (Layout)</li>
+              <li>目前心情：☕ 咖啡因補充中 (Caffeine)</li>
+              <li>
+                <h3>本週金句 (Quote)</h3>
+                <blockquote>「程式碼是我的畫筆。」</blockquote>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+      </main>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3042.097548898569!2d121.36803287926688!3d24.942831057162707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-TW!2stw!4v1773365186343!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<p></p>
-<p></p>
-There is a little lightning in his eyes.
-Iron at the mouth.
-His brows ride neither too far up nor down.
+      <footer>
+        <p>
+          <a href="https://www.bdsh.ntpc.edu.tw/">北大高中</a>
+        </p>
 
-He is splendid. With a place to stand.
+        <div class="embed-grid">
+          <div class="embed">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3042.097548898569!2d121.36803287926688!3d24.942831057162707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-TW!2stw!4v1773365186343!5m2!1szh-TW!2stw"
+              title="位置地圖"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
 
-Some glowing in the common blood.
-Some specialness within.
-<P></P>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CjH5-kfAkbs?si=IicSwIJrVZAAmbY1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<a href="#wrap" id="top">TOP</a>
-</div>
-</body>
+          <div class="embed">
+            <iframe
+              src="https://www.youtube.com/embed/CjH5-kfAkbs?si=IicSwIJrVZAAmbY1"
+              title="YouTube video player"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+        <p class="poem">
+          There is a little lightning in his eyes. Iron at the mouth. His brows ride
+          neither too far up nor down. He is splendid. With a place to stand. Some
+          glowing in the common blood. Some specialness within.
+        </p>
+
+        <a href="#wrap" id="top" class="top-link">TOP</a>
+      </footer>
+    </div>
+  </body>
 </html>
